@@ -69,6 +69,16 @@ body {
     -khtml-border-radius: 16px;
     border: none;
 }
+.buttons {
+    min-width: 300px;
+    width: 300px;
+    display: flex;
+    padding: 0px;
+    border-radius: 8px; 
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -khtml-border-radius: 8px;
+}
 a.link {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     -moz-tap-highlight-color: rgba(0,0,0,0);
