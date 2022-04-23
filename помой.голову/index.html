@@ -15,12 +15,6 @@
         <meta name="theme-color" content="#ffcc00">
     </head>
         <script type="text/javascript">
-            $(window).on('load', function () {
-                var $preloader = $('#page-preloader'),
-                $spinner   = $preloader.find('.spin');
-                $spinner.delay(100).fadeOut('slow');
-                $preloader.delay(450).fadeOut('slow');
-            });
             function is_shit() {
                 if (/MSIE/i.test(navigator.userAgent)) return true
                 if (/Trident/i.test(navigator.userAgent)) return true
