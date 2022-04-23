@@ -2,13 +2,12 @@ function play() {
     alert ('🎶')
     if ("mediaSession" in navigator) {
         let audio = document.createElement("audio");
-        let _playlist = ["sobaka", "labirint", "pesenka", "unstruct"];
+        let _playlist = ["sobaka", "tellem", "pesenka"];
         let playlist = [];
         metadata = {
             sobaka: { title: "This Could Build Us a Home", artist: "The Garden", album: "haha" },
             pesenka: { title: "Shom Me How", artist: "Men I Trust", album: "Show Me How" },
-            unstruct: { title: "Unstruct Us", artist: "Crystal Castles", album: "Crystal Castles" },
-            labirint: { title: "Лабиринт speed up", artist: "FACE", album: "Лабиринт" },
+            tellem: { title: "tell em instrumental speed up", artist: "idk :(", album: "tell em instrumental" },
         };
         function loadTracks() {
             for (sound in _playlist) {
