@@ -20,7 +20,7 @@
   });*/
 $(function() {
 	$(".typed").typed({
-        strings: ['музыка громче, глаза закрыты.', "i've gotta beat time.", "#nowar", "я не чурка.", "задонь пж..."],
+        strings: ['музыка громче, глаза закрыты.', "i've gotta beat time.", "#nowar", "🍌 банан - 100 калорий одиночества...", "задонь пж..."],
         typeSpeed: 100,
         loop: true,
         cursorChar: "|",
