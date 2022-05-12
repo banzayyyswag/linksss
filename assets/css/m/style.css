@@ -186,6 +186,10 @@ a.nolink {
     transition: .2s;
 }
 
+a.вк:hover {
+    color: #0000ff !important;
+}
+
 .social a:active {
     color: #ffcc00;
     transition: .2s;
