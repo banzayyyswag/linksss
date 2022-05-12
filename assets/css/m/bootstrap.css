@@ -395,6 +395,10 @@
     fill: #dc3545;
   }
   
+a.телега:hover {
+    color: #1db954 !important;
+}
+
   .social a:active {
     color: #fff;
   }
