@@ -3,6 +3,7 @@ body {
     width: 100%;
     min-height: 100%;
     margin: 0;
+    display: flex;
     background-color: #252525;
     font-family: 'Product Sans';
     font: 'ProductSans';
