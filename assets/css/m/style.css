@@ -3,14 +3,8 @@ body {
     width: 100%;
     min-height: 100%;
     margin: 0;
-    background: linear-gradient(312deg, #0000ff, #bf1515, #ffcc00);
-    background-size: 600% 600%;    
-    background-repeat: no-repeat;    
-    display: flex;
     font-family: 'Product Sans';
     font: 'ProductSans';
-     animation: BgAnim 32s ease infinite;
-    -webkit-animation: BgAnim 32s ease infinite;
 }
 .blur {
     backdrop-filter: blur(20px);
@@ -186,12 +180,12 @@ a.nolink {
 }
 
 .social a:hover {
-    color: #000000;
+    color: #ffcc00;
     transition: .2s;
 }
 
 .social a:active {
-    color: #000000;
+    color: #ffcc00;
     transition: .2s;
 }
 
