@@ -2,12 +2,11 @@ function play() {
     alert ('🎶')
     if ("mediaSession" in navigator) {
         let audio = document.createElement("audio");
-        let _playlist = ["sobaka", "tellem", "pesenka"];
+        let _playlist = ["sobaka", "tellem""pesenka"];
         let playlist = [];
         metadata = {
             sobaka: { title: "This Could Build Us a Home", artist: "The Garden", album: "haha" },
             pesenka: { title: "Shom Me How", artist: "Men I Trust", album: "Show Me How" },
-            tellem: { title: "tell em instrumental speed up", artist: "idk :(", album: "tell em instrumental" },
         };
         function loadTracks() {
             for (sound in _playlist) {
