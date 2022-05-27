@@ -3,8 +3,10 @@ body {
     width: 100%;
     min-height: 100%;
     margin: 0;
-    display: flex;
-    background-color: #252525;
+    display: flex
+    background: linear-gradient(312deg, #0000ff, #ff0000, #ffcc00, #ffffff, #ff1000, #ffcc00);
+    background-size: 600% 600%;
+    background-repeat: no-repeat;
     font-family: 'Product Sans';
     font: 'ProductSans';
 }
