@@ -9,6 +9,8 @@ body {
     background-repeat: no-repeat;
     font-family: 'Product Sans';
     font: 'ProductSans';
+    animation: BgAnim 32s ease infinite;
+    -webkit-animation: BgAnim 32s ease infinite;
 }
 .blur {
     backdrop-filter: blur(20px);
