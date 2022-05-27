@@ -3,7 +3,7 @@ body {
     width: 100%;
     min-height: 100%;
     margin: 0;
-    display: flex
+    display: flex;
     background: linear-gradient(312deg, #ffcc00 , #ff9900, #ff0000, #ff00ff, #aa00ff, #0000ff);
     background-size: 600% 600%;
     background-repeat: no-repeat;
