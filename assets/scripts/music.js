@@ -2,7 +2,7 @@ function play() {
     alert ('🎶')
     if ("mediaSession" in navigator) {
         let audio = document.createElement("audio");
-        let _playlist = ["sobaka", "tellem""pesenka"];
+        let _playlist = ["sobaka", "tellem", "pesenka"];
         let playlist = [];
         metadata = {
             sobaka: { title: "This Could Build Us a Home", artist: "The Garden", album: "haha" },
